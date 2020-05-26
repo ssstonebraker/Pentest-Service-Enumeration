@@ -1,0 +1,1 @@
+List all commands for module sekurlsa:curl https://github.com/gentilkiwi/mimikatz/wiki/module-~-sekurlsa | grep "<pre><code>" | sed "s|<pre><code>||g"

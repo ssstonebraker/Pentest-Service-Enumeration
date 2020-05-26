@@ -1,0 +1,1 @@
+nmap service scan port 161 for snmap:snmp nmap -sV -p 161 --script=snmp-info $IP
