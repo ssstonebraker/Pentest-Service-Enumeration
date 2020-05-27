@@ -1,0 +1,2 @@
+Enumerate SMTP users:smtp-user-enum -M VRFY -U /opt/metasploit-framework/embedded/framework/data/wordlists/unix_users.txt -t $IP
+Nmap scan all smtp checks:nmap --script=smtp-* -p 25 $IP
