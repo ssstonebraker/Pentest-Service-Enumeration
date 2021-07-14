@@ -1,0 +1,3 @@
+nmap ldap scan:nmap -n -sV --script "ldap* and not brute" $IP
+Unauthenticated bind, replace domain:ldapsearch -x -D "DC=fabricorp,DC=local" -s sub "cn=*" -h $IP
+Password Crack list of users:hydra -f -I -u -L users.txt -P /usr/share/wordlists/rockyou.txt $IP ldap2 -t 10 -vV
