@@ -1,0 +1,2 @@
+show available nfs mounts:showmount -e $IP
+mount a nfs share:export IP=10.11.1.72; sudo mkdir -p /mnt/$IP/home && sudo mount -t nfs $IP:/home /mnt/$IP/home
