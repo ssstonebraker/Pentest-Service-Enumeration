@@ -1,0 +1,7 @@
+edition = "2021"
+max_width = 100
+reorder_imports = true
+reorder_modules = true
+newline_style = "Unix"
+use_field_init_shorthand = true
+use_try_shorthand = true
